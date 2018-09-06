@@ -7,6 +7,9 @@
     "id": "org.nativescript.CurrencyNgrx",
     "tns-ios": {
       "version": "3.4.0-rc-2017-12-4-1"
+    },
+    "tns-android": {
+      "version": "4.2.0"
     }
   },
   "dependencies": {

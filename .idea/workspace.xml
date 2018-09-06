@@ -1,12 +1,498 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="acb2ce14-99ee-495a-a8e0-b2e15a23677e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/currency/containers/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/currency/containers/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NativeScripting-Ngrx-Currency-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NativeScripting-Ngrx-Currency-master.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/App_Resources/Android/app.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.routing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/core.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/core.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/actions/currency.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/actions/currency.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/actions/currency.actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/actions/currency.actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/components/currency-item.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/components/currency-item.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/containers/currency-list.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/containers/currency-list.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/currency.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/currency.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/currency.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/currency.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/currency.routing.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/currency.routing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/currency.routing.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/currency.routing.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/effects/currency.effects.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/effects/currency.effects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/effects/currency.effects.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/effects/currency.effects.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/effects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/effects/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/models/currency.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/models/currency.model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/reducers/currency.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/reducers/currency.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/reducers/currency.reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/reducers/currency.reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/services/currency.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/services/currency.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/currency/services/currency.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/currency/services/currency.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hooks/before-livesync/nativescript-angular-sync.js" beforeDir="false" afterPath="$PROJECT_DIR$/hooks/before-livesync/nativescript-angular-sync.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="currency.effects.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/effects/currency.effects.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-56">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.reducer.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/currency/reducers/currency.reducer.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency-list.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/containers/currency-list.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency-list.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/containers/currency-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.actions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/actions/currency.actions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="3" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/containers/home.component.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/containers/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.routing.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.routing.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/currency.routing.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="currency.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/currency/currency.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+              <folding>
+                <element signature="e#0#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/currency/actions/currency.actions.ts" />
+        <option value="$PROJECT_DIR$/app/currency/currency.module.ts" />
+        <option value="$PROJECT_DIR$/app/currency/currency.routing.ts" />
+        <option value="$PROJECT_DIR$/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/app/currency/services/currency.service.ts" />
+        <option value="$PROJECT_DIR$/app/currency/reducers/currency.reducer.ts" />
+        <option value="$PROJECT_DIR$/app/currency/containers/currency-list.component.html" />
+        <option value="$PROJECT_DIR$/app/currency/containers/currency-list.component.ts" />
+        <option value="$PROJECT_DIR$/app/currency/effects/currency.effects.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/animations/browser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/animations/browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/animations/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/common/http/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/common/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/common/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/common/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/compiler/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/compiler/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/core/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/core/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/forms/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/http/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/platform-browser/animations/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/platform-browser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/platform-browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/router/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/router/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@angular/router/upgrade/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@ngrx/effects/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@ngrx/effects/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/@ngrx/store/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/nativescript-angular/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/nativescript-intl/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/nativescript-theme-core/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/reflect-metadata/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/symbol-observable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules-widgets/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/application-settings/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/application/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/color/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/connectivity/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/console/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/css-value/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/css/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/data/observable-array/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/data/observable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/data/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/data/virtual-array/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/debugger/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/fetch/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/file-system/file-name-resolver/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/file-system/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/fps-meter/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/http/http-request/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/http/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/image-asset/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/image-source/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/js-libs/easysax/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/js-libs/esprima/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/js-libs/polymer-expressions/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/matrix/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/platform/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/profiling/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/text/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/timer/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/trace/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/action-bar/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/activity-indicator/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/animation/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/border/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/builder/component-builder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/builder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/button/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/content-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/bindable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/control-state-change/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/dependency-observable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/properties/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/view-base/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/core/weak-event-listener/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/date-picker/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/dialogs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/editable-text-base/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/enums/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/frame/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/gestures/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/html-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/image-cache/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/image/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/label/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/layouts/absolute-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/layouts/dock-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/layouts/flexbox-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/layouts/grid-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/layouts/stack-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/layouts/wrap-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/list-picker/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/list-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/page/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/placeholder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/progress/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/proxy-view-container/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/repeater/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/scroll-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/search-bar/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/segmented-bar/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/slider/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/styling/css-selector/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/styling/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/styling/style/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/switch/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/tab-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/text-base/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/text-field/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/text-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/time-picker/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/transition/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/ui/web-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/utils/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/xhr/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tns-core-modules/xml/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/build/intermediates/assets/debug/app/tns_modules/zone.js/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/animations/browser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/animations/browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/animations/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/common/http/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/common/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/common/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/common/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/compiler/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/compiler/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/core/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/core/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/forms/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/http/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/http/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/platform-browser/animations/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/platform-browser/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/platform-browser/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/router/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/router/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@angular/router/upgrade/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@ngrx/effects/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@ngrx/effects/testing/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/@ngrx/store/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/nativescript-intl/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/nativescript-theme-core/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/reflect-metadata/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/rxjs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/symbol-observable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules-widgets/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/application-settings/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/application/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/color/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/connectivity/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/console/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/css-value/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/css/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/data/observable-array/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/data/observable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/data/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/data/virtual-array/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/debugger/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/fetch/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/file-system/file-name-resolver/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/file-system/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/fps-meter/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/globals/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/http/http-request/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/http/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/image-asset/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/image-source/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/js-libs/easysax/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/js-libs/esprima/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/js-libs/polymer-expressions/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/matrix/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/platform/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/profiling/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/text/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/timer/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/trace/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/action-bar/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/activity-indicator/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/animation/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/border/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/builder/component-builder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/builder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/button/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/content-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/bindable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/control-state-change/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/dependency-observable/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/properties/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/view-base/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/core/weak-event-listener/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/date-picker/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/dialogs/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/editable-text-base/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/enums/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/frame/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/gestures/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/html-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/image-cache/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/image/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/label/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/layouts/absolute-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/layouts/dock-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/layouts/flexbox-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/layouts/grid-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/layouts/stack-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/layouts/wrap-layout/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/list-picker/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/list-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/page/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/placeholder/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/progress/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/proxy-view-container/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/repeater/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/scroll-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/search-bar/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/segmented-bar/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/slider/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/css-selector/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/styling/style/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/switch/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/tab-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/text-base/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/text-field/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/text-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/time-picker/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/transition/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/ui/web-view/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/utils/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/xhr/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/xml/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/tslib/package.json" />
+      <path value="$PROJECT_DIR$/platforms/android/app/src/main/assets/app/tns_modules/zone.js/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1054" />
+    <option name="width" value="1055" />
     <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+              <item name="effects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NativeScripting-Ngrx-Currency-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NativeScripting-Ngrx-Currency-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="currency" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -14,5 +500,193 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\NativeScripting-Ngrx-Currency-master\app\currency\containers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acb2ce14-99ee-495a-a8e0-b2e15a23677e" name="Default" comment="" />
+      <created>1536227693108</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536227693108</updated>
+      <workItem from="1536227694493" duration="247000" />
+      <workItem from="1536229212783" duration="2166000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2413000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/currency/containers/currency-list.component.js" />
+        <option value="$PROJECT_DIR$/app/currency/components/currency-item.component.js" />
+        <option value="$PROJECT_DIR$/app/currency/services/currency.service.js" />
+        <option value="$PROJECT_DIR$/app/currency/reducers/index.js" />
+        <option value="$PROJECT_DIR$/app/currency/reducers/currency.reducer.js" />
+        <option value="$PROJECT_DIR$/app/currency/effects/index.js" />
+        <option value="$PROJECT_DIR$/app/currency/effects/currency.effects.js" />
+        <option value="$PROJECT_DIR$/app/currency/actions/index.js" />
+        <option value="$PROJECT_DIR$/app/currency/actions/currency.actions.js" />
+        <option value="$PROJECT_DIR$/app/currency/models/currency.model.js" />
+        <option value="$PROJECT_DIR$/app/currency/currency.routing.js" />
+        <option value="$PROJECT_DIR$/app/currency/currency.module.js" />
+        <option value="$PROJECT_DIR$/app/core/core.module.js" />
+        <option value="$PROJECT_DIR$/app/main.js" />
+        <option value="$PROJECT_DIR$/app/app.module.js" />
+        <option value="$PROJECT_DIR$/app/app.component.js" />
+        <option value="$PROJECT_DIR$/app/app.routing.js" />
+        <option value="$PROJECT_DIR$/app/currency/containers/home.component.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/services/currency.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/containers/currency-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/actions/currency.actions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="9" selection-start-column="6" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/containers/home.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/containers/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/containers/currency-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/effects/currency.effects.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/currency.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/currency.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/currency/reducers/currency.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

@@ -4,7 +4,7 @@ import { Routes } from '@angular/router';
 import { NativeScriptRouterModule } from 'nativescript-angular/router';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/currency-list', pathMatch: 'full' },
+  { path: '', redirectTo: '/currency-list/home', pathMatch: 'full' },
   {
     path: 'currency-list',
     loadChildren: './currency/currency.module#CurrencyModule',

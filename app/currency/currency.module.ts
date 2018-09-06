@@ -3,6 +3,7 @@ import { NativeScriptCommonModule } from 'nativescript-angular/common';
 
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
+import { HomeComponent } from "./containers/home.component";
 
 import { reducers } from './reducers';
 import { CurrencyEffects } from './effects';
@@ -18,7 +19,7 @@ import { CurrencyItemComponent } from './components/currency-item.component';
     StoreModule.forFeature('currency', reducers),
     EffectsModule.forFeature([CurrencyEffects]),
   ],
-  declarations: [CurrencyListComponent, CurrencyItemComponent],
+  declarations: [CurrencyListComponent, CurrencyItemComponent, HomeComponent],
   schemas: [NO_ERRORS_SCHEMA],
 })
 export class CurrencyModule {}

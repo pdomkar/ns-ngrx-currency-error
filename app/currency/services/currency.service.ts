@@ -11,6 +11,7 @@ export class CurrencyService {
   constructor(private http: HttpClient) {}
 
   getCurrencyData(): Observable<Currency[]> {
-    return this.http.get<Currency[]>(`${this.ROOT_URL}/ticker`);
+    return Observable.throw('error');
+    // return this.http.get<Currency[]>(`${this.ROOT_URL}/ticker`);
   }
 }
